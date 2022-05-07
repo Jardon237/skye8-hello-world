@@ -84,5 +84,4 @@ Git merge basically integrates your feature branch with all of its commits back 
     git fetch
 
 These Are some basic git commands
-tributes <a href="freecodecamp.org">
 compiled by Jardon237
