@@ -85,4 +85,4 @@ Git merge basically integrates your feature branch with all of its commits back 
 
 These Are some basic git commands
 tributes <a href="freecodecamp.org">
-compiled by <a href="ngwajude161@gmail.com">
+compiled by Jardon237
