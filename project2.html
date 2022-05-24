@@ -14,14 +14,14 @@
     <form id="survey-form">
         <div id="name-label">Name</div>
         <div>
-        <input type="text" id="name" placeholder="enter your name">
+        <input type="text" id="name" placeholder="enter your name" required>
         </div>
         <div id="email-label">email</div>
-        <input type="email" id="email" placeholder="enter your email">
+        <input type="email" id="email" placeholder="enter your email" required>
         </div> 
         <div id="number-label">Age(optional)
             </div>
-        <input type="number"  id="number" placeholder="age" maxlength="2">
+        <input type="number"  id="number" placeholder="age" min="10" max="99">
         <div>
             <label for="lang">Which option best describes your current role?</label></div>
                 <select id="dropdown">
@@ -99,7 +99,7 @@
         <br>
         <br>
         <div>Any comments or suggestions?</div>
-        <input type="textarea" placeholder="enter your comments here..."><br>
+        <textarea type="textarea" placeholder="enter your comments here..."><br>
         <button id="submit" type="submit">submit</button>
 
 
