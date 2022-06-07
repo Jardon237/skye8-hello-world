@@ -24,3 +24,16 @@ titleCaseOver = 9000;
 //using let keyword
 let catName = "Oliver";
 let catSound = "Meow!";
+
+//working with operators
+var remainder = 0;
+remainder= 11%3; //using %
+const quotient = 4.4 / 2.0; // gives a value of 2.2
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9
+c += 7// using += operator
