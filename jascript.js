@@ -37,3 +37,16 @@ let c = 12;
 a += 12;
 b += 9
 c += 7// using += operator
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";// using back slashes to escaape
+const Me="FirstLine\n\t\\SecondLine\nThirdLine"
+const mySt = "This is the start. " + "This is the end"; //string concartenation
+let Me2 ="This is the first sentence. ";
+Me2 += "This is the second sentence.";
+
+const myName = "Jude";
+const myS = "My name is " + myName + "and i am well!"; //constant with strings
+
+const someAdjective = "realy a bad thing";
+let Me3 = "Learning to code is ";
+Me3+= someAdjective; //appending vairabless to string
