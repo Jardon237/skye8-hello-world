@@ -50,3 +50,16 @@ const myS = "My name is " + myName + "and i am well!"; //constant with strings
 const someAdjective = "realy a bad thing";
 let Me3 = "Learning to code is ";
 Me3+= someAdjective; //appending vairabless to string
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName.length; // getting the leght of a character in a string
+
+let firstLetterOfLastName = "";
+firstLetterOfLastName = lastName[0]; //getting index of a character in a string
+
+
+
+const thirdLetterOfLastName = lastName[2]; // Change this line
+const lastLetterOfLastName = lastName[lastName.length-1]; //accessing the last element in a string
