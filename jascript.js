@@ -63,3 +63,22 @@ firstLetterOfLastName = lastName[0]; //getting index of a character in a string
 
 const thirdLetterOfLastName = lastName[2]; // Change this line
 const lastLetterOfLastName = lastName[lastName.length-1]; //accessing the last element in a string
+
+const myArray = ["judde", 1, 2]; // working With
+var myData = myArray[0]; // passsing the first element from my array to my data
+muyArray[0]="john";
+
+const myArra = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData = myArray[2][1]; // accessing number 8 in a mukti dimentional array
+  myArray.push(["dog", 3]);// adding an array to the array list
+  var removedFromMyArray = myArray.pop(); // removes the last element in the array
+  var removedFromMyArray = myArray.shift(); // removes the forst elemrnt from the array
+  myArray.shift();
+  myArray.unshift(["Paul" ,35]);
+
