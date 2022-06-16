@@ -89,3 +89,8 @@ const myArra = [
   }
   reusableFunction(); 
 
+  function functionWithArgs(x, y){
+    console.log( x + y);
+  }
+  functionWithArgs( 1, 2); //function to add 2 numbers
+
