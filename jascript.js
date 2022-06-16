@@ -94,3 +94,8 @@ const myArra = [
   }
   functionWithArgs( 1, 2); //function to add 2 numbers
 
+  function timesFive(num){
+    return(num * 5);
+  }
+  const newValue=timesFive(5); //using return to frint a functoion.
+
