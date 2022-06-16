@@ -99,3 +99,14 @@ const myArra = [
   }
   const newValue=timesFive(5); //using return to frint a functoion.
 
+// over writting a global vaiarable  
+  const outerWear = "T-Shirt";
+
+function myOutfit() {
+  const outerWear="sweater"
+ 
+  return outerWear;
+}
+
+myOutfit();
+
