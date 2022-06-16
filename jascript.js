@@ -82,3 +82,5 @@ const myArra = [
   myArray.shift();
   myArray.unshift(["Paul" ,35]);
 
+  const myList = [["me", 1], ["you", 2], ["us", 3], ["them", 4], ["trash", 5]]; //confused list
+
