@@ -81,6 +81,11 @@ const myArra = [
   var removedFromMyArray = myArray.shift(); // removes the forst elemrnt from the array
   myArray.shift();
   myArray.unshift(["Paul" ,35]);
-
   const myList = [["me", 1], ["you", 2], ["us", 3], ["them", 4], ["trash", 5]]; //confused list
+
+
+  function reusableFunction(){ // working with functions
+    console.log("Hi World");
+  }
+  reusableFunction(); 
 
