@@ -110,7 +110,8 @@ function myOutfit() {
 
 myOutfit();
 
-//Undefined Value returned from a Function
+//Undefined Value returned from a FunctionJudiscop-5
+
 let sum = 0;
 
 function addThree() {
@@ -124,4 +125,22 @@ function addFive(){
 
 addThree();
 addFive();
+// qeue implementation
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  const removed = arr.shift();
+  return removed;
+
+  return item;
+  
+}
+
+// Setup
+const testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
 
