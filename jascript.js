@@ -235,3 +235,17 @@ function testLessThan(val) {
 }
 
 testLessThan();
+
+function testLessOrEqual(val) {
+  if (val<=12) {  
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val<=24) {  
+    return "Smaller Than or Equal to 24";  //working with <=
+  }
+
+  return "More Than 24";
+}
+
+testLessOrEqual();
