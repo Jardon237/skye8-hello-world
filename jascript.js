@@ -266,3 +266,19 @@ function testLogicalOr(val){
     return "False"; // working with logical Or
 }
 testLogicalOr();
+
+function testElse(val) {
+  let result = "";
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+                            // working with else staments
+  else{
+    result = "5 or Smaller";
+  }
+
+  return result;
+}
+
+testElse(4);
