@@ -249,3 +249,12 @@ function testLessOrEqual(val) {
 }
 
 testLessOrEqual();
+
+function testLogicalAnd(val){
+  if (val<= 50 && val>= 25){
+    return "true";
+  }
+    return "false";      //working with logical AND (&&)
+}
+
+testLogicalAnd();
