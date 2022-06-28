@@ -184,3 +184,12 @@ function compareEquality(a, b) {
 }
 
 compareEquality(10, "10");
+
+function testNotEqual(val) {
+  if (val!= 99) {          // working with != operator
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual();
