@@ -160,9 +160,18 @@ trueOrFalse(false);
 
 function testEqual(val) {
   if (val==12) { // Change this line
-    return "Equal";
+    return "Equal";    //equal to
   }
   return "Not Equal";
 }
 
 testEqual(12);
+
+function testStrict(val) {
+  if (val===7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}                                  ///strictly equal to ===
+
+testStrict();
