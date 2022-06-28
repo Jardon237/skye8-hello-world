@@ -258,3 +258,11 @@ function testLogicalAnd(val){
 }
 
 testLogicalAnd();
+
+function testLogicalOr(val){
+  if(val <10 || val> 20){
+    return "True";
+  }
+    return "False"; // working with logical Or
+}
+testLogicalOr();
