@@ -311,3 +311,52 @@ function orderMyLogic(val) {
 }
 
 orderMyLogic(7);
+
+//GOlf code {more light on if else staments with the logical &&}
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(strokes, par) {
+
+
+  if (strokes ==4 && par==1) {
+    return "Hole-in-one!";
+ }
+  else if (strokes== 4 && par==2){
+    return "Eagle";
+  }
+  else if (strokes == 5 && par== 2){
+    return "Eagle";
+  }
+  else if(strokes== 4 && par ==3){
+    return "Birdie"
+  }
+  else if(strokes== 4 && par==4){
+    return "Par";
+  }
+  else if(strokes == 1 && par ==1){
+    return "Hole-in-one!";
+  }
+  else if(strokes == 5 && par ==5){
+    return "Par";
+  }
+  else if(strokes == 4 && par ==5){
+    return "Bogey";
+  }
+  else if(strokes == 4 && par ==6){
+    return "Double Bogey";
+  }
+  else if(strokes == 4 && par ==7){
+    return "Go Home!";
+  }
+  else if(strokes == 5 && par ==9){
+    return "Go Home!";
+  }
+  else{
+
+  return "Change Me";
+  }
+  // Only change code above this line
+}
+golfScore(5, 4);
+
+
