@@ -406,3 +406,30 @@ function switchOfStuff(val) {
 
 switchOfStuff(1);
 
+//switch staments with identical options
+function sequentialSizes(val) {
+  let answer = "";
+switch (val){
+  case 1:
+    answer="Low";
+  case 2:
+    answer="Low";
+  case 3:
+    answer="Low";
+    break;
+  case 4:
+  case 5:
+  case 6:
+    answer="Mid";
+    break;
+  case 7:
+  case 8:
+  case 9:
+    answer="High";
+}
+
+  return answer;
+}
+
+sequentialSizes(1);
+
